@@ -1,0 +1,12 @@
+com\api\apicommon\model\entity\User.class
+com\api\apicommon\model\entity\UserInterfaceInfo.class
+com\api\apicommon\model\enums\PostGenderEnum.class
+com\api\apicommon\service\InnerUserInterfaceInfoService.class
+com\api\apicommon\model\enums\InterfaceInfoStatusEnum.class
+com\api\apicommon\service\InnerUserService.class
+com\api\apicommon\model\vo\UserVO.class
+com\api\apicommon\model\entity\InterfaceInfo.class
+com\api\apicommon\model\entity\Post.class
+com\api\apicommon\model\vo\PostVO.class
+com\api\apicommon\model\enums\PostReviewStatusEnum.class
+com\api\apicommon\service\InnerInterfaceInfoService.class

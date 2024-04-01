@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.70.150.81:3306/api_db
+    username: api_db
+    password: zhouwenxuan2002
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protool:
+    name: dubbo
+    port: 20001
+  registry:
+    address: nacos://localhost:8848

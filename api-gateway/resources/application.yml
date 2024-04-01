@@ -1,0 +1,18 @@
+server:
+  port: 8091
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api_route
+          uri: http://localhost:8123
+          predicates:
+            - Path=/api/**
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protool:
+    name: dubbo
+    port: 20002
+  registry:
+    address: nacos://localhost:8848
